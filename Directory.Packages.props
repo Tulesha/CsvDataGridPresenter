@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+    </PropertyGroup>
+    <ItemGroup Label="ThirdParty">
+        <PackageVersion Include="Avalonia" Version="$(AvaloniaVersion)"/>
+        <PackageVersion Include="Avalonia.Desktop" Version="$(AvaloniaVersion)"/>
+        <PackageVersion Include="Avalonia.Fonts.Inter" Version="$(AvaloniaVersion)"/>
+        <PackageVersion Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)"/>
+        <PackageVersion Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
+        <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.2.2"/>
+        <PackageVersion Include="Eremex.Avalonia.Controls" Version="$(EMXControlsVersion)"/>
+        <PackageVersion Include="Eremex.Avalonia.Themes.DeltaDesign" Version="$(EMXControlsVersion)"/>
+        <PackageVersion Include="CsvHelper" Version="33.0.1"/>
+    </ItemGroup>
+</Project>

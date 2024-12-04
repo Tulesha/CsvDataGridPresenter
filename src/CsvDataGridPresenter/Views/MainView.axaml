@@ -1,0 +1,21 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mxdg="https://schemas.eremexcontrols.net/avalonia/datagrid"
+             xmlns:vm="clr-namespace:CsvDataGridPresenter.ViewModels"
+             xmlns:views="clr-namespace:CsvDataGridPresenter.Views"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="CsvDataGridPresenter.Views.MainView"
+             x:DataType="vm:MainWindowViewModel">
+    <mxdg:DataGridControl Name="DataGridControl"
+                          ItemsSource="{Binding Items}"
+                          ColumnsSource="{Binding Columns}"
+                          AllowEditing="False"
+                          CustomUnboundColumnData="DataGridControl_CustomUnboundColumnData"
+                          PropertyChanged="DataGridControl_PropertyChanged">
+        <mxdg:DataGridControl.ColumnTemplate>
+            <views:DataGridCsvDataViewColumnTemplate />
+        </mxdg:DataGridControl.ColumnTemplate>
+    </mxdg:DataGridControl>
+</UserControl>

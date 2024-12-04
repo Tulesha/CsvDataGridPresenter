@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <Company>Dipaul</Company>
+    <Product>CsvDataGridPresenter</Product>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <LangVersion>10.0</LangVersion>
+    <AvaloniaVersion>11.2.0</AvaloniaVersion>
+    <EMXControlsVersion>1.1.69-pre</EMXControlsVersion>
+  </PropertyGroup>
+</Project>
